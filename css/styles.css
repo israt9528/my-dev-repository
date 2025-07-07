@@ -21,7 +21,7 @@ color: #474747;
 .secondary-color {
     color: #FD6E0A;
 }
-
+/* header styles */
 header {
     background-image: url(../images/developer.png), 
                       url(../images/header_bg.png);
