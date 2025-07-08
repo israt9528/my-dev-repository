@@ -26,7 +26,7 @@ header {
     background-image: url(../images/developer.png), 
                       url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, right bottom; 
+    background-position: left, right bottom; 
     background-color: #FFF8F3;   
           
 }
