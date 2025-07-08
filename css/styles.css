@@ -7,7 +7,7 @@ font-family: "Open Sans", sans-serif;
   font-variation-settings:
     "wdth" 100;
     margin: 0;
-    height: 1000vh;
+    
 }
 
 .dark-1 {
@@ -54,10 +54,10 @@ header {
 .nav-head {
     font-size: 45px;
     color: #1E1E1E;
-     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 .nav-item {
     display: flex;
@@ -282,4 +282,50 @@ hr {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+}
+
+
+/* foot styles */
+
+.footer {
+    margin-top: 112px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 118px;
+    padding: 130px 230px;
+}
+.foot-content1 {
+    padding-bottom: 300px;
+}
+
+.foot-head {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.foot-body {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.foot-icon {
+    margin-right: 24px;
+}
+input, textarea {
+    display: block;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    width: 460px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.form-head {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 28px;
 }
