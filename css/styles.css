@@ -7,6 +7,7 @@ font-family: "Open Sans", sans-serif;
   font-variation-settings:
     "wdth" 100;
     margin: 0;
+    height: 1000vh;
 }
 
 .dark-1 {
@@ -21,13 +22,23 @@ color: #474747;
 .secondary-color {
     color: #FD6E0A;
 }
+.bg-color {
+    background-color: #FFF8F3;  
+}
+.max-width {
+    max-width: 1140px;
+}
+.top-margin {
+    margin-top: 130px;
+}
+
 /* header styles */
 header {
     background-image: url(../images/developer.png), 
                       url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left, right bottom; 
-    background-color: #FFF8F3;   
+      
           
 }
 
@@ -115,5 +126,160 @@ button i {
 .banner-head {
     font-size: 85px;
     font-weight: bold;
+    margin: 0;
+}
+
+/* main styles */
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* main section1 styles */
+
+.section1 {
+    max-width: 1140px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about {
+    background-color: #fff;
+    text-align: center;
+    margin: 130px 160px;
+}
+.about-head {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 5px;
+}
+.about-body {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.about-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.about-foot .first {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.about-foot .last {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* main section2 styles */
+
+
+.what-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.what-head {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+.what-body {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    max-width: 900px;
+}
+/* main section3 styles */
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.card-content {
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 6%);
+}
+.card-head {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.card-body {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+/* main section4 styles */
+
+.section4 {
+    text-align: center;
+}
+hr {
+    margin-top: 55px;
+    border: auto;
+}
+
+.resume-head {
+
+    margin-bottom: 112px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.resume-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    width: 510px;
+
+}
+.content-head {
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.item-head {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+.item-body-first {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.item-body-last {
+    font-size: 16px;
+    font-weight: 400;
     margin: 0;
 }
